@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'agenthandoffmufaddal'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6e7ea6e9e09d477ead0ea30aa105e3c4 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_00b26ceb968948f89abfc8c2d9a35efd }}
         package: .
