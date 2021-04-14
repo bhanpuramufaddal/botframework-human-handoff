@@ -5,9 +5,9 @@
         {
             "type": "endpoint",
             "appId": "22bf90f3-26b6-423e-ac9d-d274623c84ae",
-            "appPassword": "a5dd275c-37d6-43f9-80ef-3ec44ae22bd8",
+            "appPassword": "8AnA:2yZUEgp+Y6!rCs:jvE-",
             "endpoint": "http://localhost:3978/api/messages",
-            "id": "1",
+            "id": "agenthandoffmufaddal",
             "name": "development"
         }
     ],
