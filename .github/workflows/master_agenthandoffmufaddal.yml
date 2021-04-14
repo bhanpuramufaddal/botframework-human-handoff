@@ -19,7 +19,7 @@ jobs:
     - name: Set up Node.js version
       uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
+        node-version: '10.6.0'
 
     - name: npm install, build, and test
       run: |
@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'agenthandoffmufaddal'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3614884783184d13a6b3c021406ad336 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a47156d1d2d9430792f0a857f3c034e8 }}
         package: .
