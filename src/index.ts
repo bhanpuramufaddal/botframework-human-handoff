@@ -59,6 +59,6 @@ server.post('/api/messages', (req, res) => {
 
 
 server.get('/*', restify.plugins.serveStatic({
-    directory: '/Users/tjdford/Developer/Microsoft/handover/public/',
+    directory: './public/',
     default: 'index.html'
 }));
