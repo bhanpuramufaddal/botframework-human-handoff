@@ -24,7 +24,8 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm start
+        npm run build --if-present
+        npm run test --if-present
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
@@ -51,5 +52,5 @@ jobs:
       with:
         app-name: 'agenthandoffmufaddal'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fc3206de30b9464dbfa397d7dd9be345 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6254666c18724ce1866faff6a055696f }}
         package: .
